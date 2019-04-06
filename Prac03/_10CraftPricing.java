@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class CraftPricing {
+public class _10CraftPricing {
 
     public static void main (String[] args){
         String name = JOptionPane.showInputDialog("Name of product: ");

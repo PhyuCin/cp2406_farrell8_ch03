@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class Insurance {
+public class _9Insurance {
 
     public static void main(String[] args){
         String stringCurrentYear = JOptionPane.showInputDialog("Current year:");

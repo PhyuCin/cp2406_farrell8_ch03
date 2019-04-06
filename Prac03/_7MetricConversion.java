@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MetricConversion {
+public class _7MetricConversion {
     static final double CMININCH = 2.54;
     static final double LINGALLON = 3.7854;
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Percentages2 {
+public class _5bPercentages2 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("First number: ");

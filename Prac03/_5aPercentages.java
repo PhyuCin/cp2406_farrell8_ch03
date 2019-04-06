@@ -1,4 +1,4 @@
-public class Percentages {
+public class _5aPercentages {
 
     public static void main(String[] args){
         double num1 = 2.5;

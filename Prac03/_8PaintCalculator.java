@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PaintCalculator {
+public class _8PaintCalculator {
     static final int SQFEETPERGALLON = 350;
     static final int PRICEPERGALLON = 32;
 

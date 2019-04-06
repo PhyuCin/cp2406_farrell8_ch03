@@ -1,13 +1,11 @@
-import java.util.Scanner;
-
-public class NumbersDemo2 {
+public class _4aNumbersDemo {
 
     public static void displayTwiceTheNumber(int num){
         System.out.println("Twice the number is: " + (num*2));
     }
 
     public static void displayNumberPlusFive(int num) {
-        System.out.println("Number plus five is: " + (num + 5));
+        System.out.println("Number plus five is " + (num + 5));
     }
 
     public static void displayNumberSquared(int num){
@@ -15,25 +13,19 @@ public class NumbersDemo2 {
     }
 
     public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
+        int firstNum = 2;
+        int secondNum = 3;
 
-        System.out.println("Enter first number: ");
-        String stringFirstNum = input.nextLine();
-        int firstNum = Integer.parseInt(stringFirstNum);
-
-        System.out.println("Enter second number: ");
-        String stringSecondNum = input.nextLine();
-        int secondNum = Integer.parseInt(stringSecondNum);
-
-        System.out.println("\nNumber: " + firstNum);
+        System.out.println("The number is: " + firstNum);
         displayTwiceTheNumber(firstNum);
         displayNumberPlusFive(firstNum);
         displayNumberSquared(firstNum);
 
-        System.out.println("\nNumber: " + secondNum);
+        System.out.println("\nThe number is: " + secondNum);
         displayTwiceTheNumber(secondNum);
         displayNumberPlusFive(secondNum);
         displayNumberSquared(secondNum);
     }
+
 
 }
